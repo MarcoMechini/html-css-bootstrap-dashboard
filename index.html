@@ -18,23 +18,26 @@
 <body>
     <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid d-flex">
-            <a class="navbar-brand" href="#">
-                <img src="./img/duck.png" alt="Logo" width="30" height="30" class="d-inline-block align-top">
-            </a>
-            <!-- NAVBAR LG -->
-            <div class="collapse navbar-collapse d-none d-lg-inline-block" id="navbarNav">
-                <ul class="navbar-nav flex-row ms-auto"> <!-- flex-row per disposizione orizzontale -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Anagrafica Utenti</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Storico Prestiti</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Help</a>
-                    </li>
-                </ul>
+            <div>
+                <a class="navbar-brand" href="#">
+                    <img src="./img/duck.png" alt="Logo Duck" width="30" height="30" class="d-inline-block align-top">
+                </a>
+                <!-- NAVBAR LG -->
+                <div class="collapse navbar-collapse d-none d-lg-inline-block">
+                    <ul class="navbar-nav flex-row ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Anagrafica Utenti</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Storico Prestiti</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Help</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
+
 
             <!-- NAVBAR SM MD -->
             <button class="navbar-toggler d-block d-lg-none" type="button" data-bs-toggle="collapse"
@@ -72,7 +75,7 @@
                     <td>I pilastri della terra</td>
                     <td class="d-none d-md-table-cell">-</td>
                     <td><span class="badge bg-success">Disponibile</span></td>
-                    <td>
+                    <td class="d-flex">
                         <button class="btn btn-sm btn-outline-secondary"><i class="bi bi-pencil"></i></button>
                         <button class="btn btn-sm btn-outline-danger"><i class="bi bi-trash"></i></button>
                     </td>
@@ -81,7 +84,7 @@
                     <td>I promessi sposi</td>
                     <td class="d-none d-md-table-cell">-</td>
                     <td><span class="badge bg-success">Disponibile</span></td>
-                    <td>
+                    <td class="d-flex">
                         <button class="btn btn-sm btn-outline-secondary"><i class="bi bi-pencil"></i></button>
                         <button class="btn btn-sm btn-outline-danger"><i class="bi bi-trash"></i></button>
                     </td>
@@ -90,7 +93,7 @@
                     <td>Il signore degli anelli</td>
                     <td class="d-none d-md-table-cell">18/10/2023</td>
                     <td><span class="badge bg-warning text-dark">In prestito</span></td>
-                    <td>
+                    <td class="d-flex">
                         <button class="btn btn-sm btn-outline-secondary"><i class="bi bi-pencil"></i></button>
                         <button class="btn btn-sm btn-outline-danger"><i class="bi bi-trash"></i></button>
                     </td>
@@ -99,7 +102,7 @@
                     <td>Harry Potter e la pietra filosofale</td>
                     <td class="d-none d-md-table-cell">-</td>
                     <td><span class="badge bg-success">Disponibile</span></td>
-                    <td>
+                    <td class="d-flex">
                         <button class="btn btn-sm btn-outline-secondary"><i class="bi bi-pencil"></i></button>
                         <button class="btn btn-sm btn-outline-danger"><i class="bi bi-trash"></i></button>
                     </td>
@@ -108,7 +111,7 @@
                     <td>Il codice Da Vinci</td>
                     <td class="d-none d-md-table-cell">-</td>
                     <td><span class="badge bg-danger">Non disponibile</span></td>
-                    <td>
+                    <td class="d-flex">
                         <button class="btn btn-sm btn-outline-secondary"><i class="bi bi-pencil"></i></button>
                         <button class="btn btn-sm btn-outline-danger"><i class="bi bi-trash"></i></button>
                     </td>
@@ -117,7 +120,7 @@
                     <td>Shining</td>
                     <td class="d-none d-md-table-cell">-</td>
                     <td><span class="badge bg-success">Disponibile</span></td>
-                    <td>
+                    <td class="d-flex">
                         <button class="btn btn-sm btn-outline-secondary"><i class="bi bi-pencil"></i></button>
                         <button class="btn btn-sm btn-outline-danger"><i class="bi bi-trash"></i></button>
                     </td>
@@ -126,7 +129,7 @@
                     <td>La divina commedia</td>
                     <td class="d-none d-md-table-cell">21/09/2023</td>
                     <td><span class="badge bg-warning text-dark">In prestito</span></td>
-                    <td>
+                    <td class="d-flex">
                         <button class="btn btn-sm btn-outline-secondary"><i class="bi bi-pencil"></i></button>
                         <button class="btn btn-sm btn-outline-danger"><i class="bi bi-trash"></i></button>
                     </td>
@@ -135,7 +138,7 @@
                     <td>Il trono di spade</td>
                     <td class="d-none d-md-table-cell">-</td>
                     <td><span class="badge bg-success">Disponibile</span></td>
-                    <td>
+                    <td class="d-flex">
                         <button class="btn btn-sm btn-outline-secondary"><i class="bi bi-pencil"></i></button>
                         <button class="btn btn-sm btn-outline-danger"><i class="bi bi-trash"></i></button>
                     </td>
@@ -144,7 +147,7 @@
                     <td>Il mondo di Sofia</td>
                     <td class="d-none d-md-table-cell">-</td>
                     <td><span class="badge bg-danger">Non disponibile</span></td>
-                    <td>
+                    <td class="d-flex">
                         <button class="btn btn-sm btn-outline-secondary"><i class="bi bi-pencil"></i></button>
                         <button class="btn btn-sm btn-outline-danger"><i class="bi bi-trash"></i></button>
                     </td>
@@ -153,7 +156,7 @@
                     <td>Le cronache di Narnia: il leone, la strega e l'armadio</td>
                     <td class="d-none d-md-table-cell">25/07/2023</td>
                     <td><span class="badge bg-warning text-dark">In prestito</span></td>
-                    <td>
+                    <td class="d-flex">
                         <button class="btn btn-sm btn-outline-secondary"><i class="bi bi-pencil"></i></button>
                         <button class="btn btn-sm btn-outline-danger"><i class="bi bi-trash"></i></button>
                     </td>
@@ -162,7 +165,7 @@
                     <td>Il piccolo principe</td>
                     <td class="d-none d-md-table-cell">-</td>
                     <td><span class="badge bg-success">Disponibile</span></td>
-                    <td>
+                    <td class="d-flex">
                         <button class="btn btn-sm btn-outline-secondary"><i class="bi bi-pencil"></i></button>
                         <button class="btn btn-sm btn-outline-danger"><i class="bi bi-trash"></i></button>
                     </td>
@@ -171,7 +174,7 @@
                     <td>La storia infinita</td>
                     <td class="d-none d-md-table-cell">-</td>
                     <td><span class="badge bg-success">Disponibile</span></td>
-                    <td>
+                    <td class="d-flex">
                         <button class="btn btn-sm btn-outline-secondary"><i class="bi bi-pencil"></i></button>
                         <button class="btn btn-sm btn-outline-danger"><i class="bi bi-trash"></i></button>
                     </td>
